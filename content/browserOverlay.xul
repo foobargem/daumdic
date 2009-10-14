@@ -9,4 +9,14 @@
 		<menuitem id="menu_daumdic" label="Daum Dictionary" oncommand="daumdicToolbar.showMiniDic();" />
 	</menupopup>
 
+
+	<!-- Extend Firefox status bar -->
+	<statusbar id="status-bar">
+		<statusbarpanel id="daumdicStatusBar" role="button">
+			<image id="daumdicIcon" tooltiptext="Daum dictionary"
+				   src="chrome://daumdic/content/icons/daumdic_icon_16.png"
+				   onclick="daumdicToolbar.showMiniDic();" />
+		</statusbarpanel>
+	</statusbar>
+
 </overlay>
