@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<script type="application/x-javascript" src="chrome://daumdic/content/daumdic.js" />
+
+	<!-- firefox tools menu -->
+	<menupopup id="menu_ToolsPopup">
+		<!-- <menuitem id="menu_daumdic" label="Daum Dictionary" oncommand="daumdicToolbar.showMain();" /> -->
+		<menuitem id="menu_daumdic" label="Daum Dictionary" oncommand="daumdicToolbar.showMiniDic();" />
+	</menupopup>
+
+</overlay>

@@ -1,0 +1,4 @@
+content	daumdic	content/
+
+overlay chrome://browser/content/browser.xul	chrome://daumdic/content/browserOverlay.xul
+

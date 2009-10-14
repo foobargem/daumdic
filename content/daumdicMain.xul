@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<window id="daumdicMain"
+		xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+		title="Daum Dictionary">
+
+		<script type="text/javascript" src="chrome://daumdic/content/jquery-1.3.2.js" />
+		<script type="text/javascript" src="chrome://daumdic/content/daumdic.js" />
+
+<groupbox>
+	<caption label="Daum English Dictionary"/>
+	<grid>
+		<columns>
+			<column flex="1" />
+			<column flex="2" />
+		</columns>
+		<rows>
+			<row>
+				<hbox>
+        			<textbox id="keyword" accesskey="k" inputField="true" wrapAround="false" />
+        			<button id="search_btn" label="Search" oncommand="daumdic.search();" />
+				</hbox>
+			</row>
+			<row>
+				<textbox id="result" multiline="true" readonly="true" rows="8" cols="40" />
+			</row>
+		</rows>
+	</grid>
+</groupbox>
+
+<iframe id="action_container" hidden="false" src="about:blank" width="100" height="100" />
+
+</window>
