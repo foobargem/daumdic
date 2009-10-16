@@ -1,4 +1,4 @@
-daumdic
+Daumdic
 =======
 daumdic is a firefox extension.
 
@@ -8,7 +8,7 @@ exclude.lst - exclude files to build.(compress)
 .gitignore - git ignore file
 
 
-Build to xpi
+How to build
 ============
 Just execute make.
 
