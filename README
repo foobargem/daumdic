@@ -2,6 +2,15 @@ daumdic
 =======
 daumdic is a firefox extension.
 
+Makefile
+README
+exclude.lst - exclude files to build.(compress)
+.gitignore - git ignore file
+
+
+Build to xpi
+============
+Just execute make.
 
 
 How to run

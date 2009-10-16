@@ -1,0 +1,5 @@
+exclude.lst
+Makefile
+README
+.gitignore
+.git/*
